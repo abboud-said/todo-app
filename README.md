@@ -1,16 +1,21 @@
-# React + Vite
+# todo-app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + Vite starting point for a to-do list app.
 
-Currently, two official plugins are available:
+## Status
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This repo is currently just the Vite "React + JS" template as scaffolded by `npm create vite@latest` — the counter demo, not a to-do list yet. It was set up to build a to-do app on top of, but the to-do functionality itself hasn't been written here (see the separate [`to-do-lista`](https://github.com/abboud-said/to-do-lista) repo for a further-along version of the same idea).
 
-## React Compiler
+## Running it locally
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm install
+npm run dev
+```
 
-## Expanding the ESLint configuration
+Open the URL Vite prints (usually http://localhost:5173).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech
+
+- React 18
+- Vite
