@@ -1,10 +1,12 @@
 # todo-app
 
+**Live:** https://todo-app-dusky-three-18.vercel.app
+
 A React + Vite starting point for a to-do list app.
 
 ## Status
 
-This repo is currently just the Vite "React + JS" template as scaffolded by `npm create vite@latest` — the counter demo, not a to-do list yet. It was set up to build a to-do app on top of, but the to-do functionality itself hasn't been written here (see the separate [`to-do-lista`](https://github.com/abboud-said/to-do-lista) repo for a further-along version of the same idea).
+This repo is currently just the Vite "React + JS" template as scaffolded by `npm create vite@latest` — the counter demo, not a to-do list yet. It was set up to build a to-do app on top of, but the to-do functionality itself hasn't been written here (see the separate [`to-do-lista`](https://github.com/abboud-said/to-do-lista) repo for a further-along version of the same idea). It's deployed above as-is (the unmodified counter demo).
 
 ## Running it locally
 
